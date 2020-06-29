@@ -139,12 +139,19 @@ static TEE_Result store_key(TEE_ObjectHandle key, uint32_t id) {
   return ret;
 }
 
-static TEE_Result cmd_gen_key( TEE_Param params[TEE_NUM_PARAMS] ) {
+static TEE_Result cmd_gen_key(uint32_t param_types, TEE_Param params[TEE_NUM_PARAMS] ) {
 	TEE_Result res;
 	TEE_ObjectHandle key;
 	uint32_t key_type = params[0].value.a;
   uint32_t key_size = params[0].value.b;
   uint32_t key_id = params[1].value.a;
+
+  const uint32_t exp_pt = TEE_PARAM_TYPES(TEE_PARAM_TYPE_VALUE_IN, //* a: key type, b: key size
+						TEE_PARAM_TYPE_VALUE_IN, //* a: key id
+						TEE_PARAM_TYPE_NONE,
+						TEE_PARAM_TYPE_NONE);
+	if (pt != exp_pt)
+		return TEE_ERROR_BAD_PARAMETERS;
 
 	res = TEE_AllocateTransientObject(key_type, key_size, &key);
 	if (res) {
