@@ -1,0 +1,1 @@
+ccache /home/nk/optee/out-br/host/bin/aarch64-linux-gnu-gcc --sysroot=/home/nk/optee/out-br/host/aarch64-buildroot-linux-gnu/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os  -DNDEBUG  -rdynamic CMakeFiles/optee_example_secure_storage.dir/host/main.c.o  -o optee_example_secure_storage -lteec 

@@ -1,0 +1,1733 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                              out/secure_storage_ta.o (trace_printf)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o) (memcpy)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o) (snprintk)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o) (memchr)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o) (strlen)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o) (trace_ext_puts)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                              out/secure_storage_ta.o (TEE_MemMove)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+                              out/secure_storage_ta.o (TEE_GetObjectInfo1)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (TEE_Panic)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (tee_map_zi)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o) (_utee_panic)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                              out/user_ta_header.o (__utee_entry)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o) (_TEE_MathAPI_Init)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o) (mbedtls_mpi_init_mempool)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o) (mbedtls_platform_zeroize)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (malloc)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o) (vsnprintf)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (memmove)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (memset)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o) (mempool_alloc_pool)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (consttime_memcmp)
+/home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o) (_assert_log)
+
+Allocating common symbols
+Common symbol       size              file
+
+ta_heap             0x8000            out/user_ta_header.o
+__init_fini_info    0x10              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ta_param_types      0x4               /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ta_params           0x40              /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+mbedtls_mpi_mempool
+                    0x8               /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/secure_storage_ta.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .group         0x0000000000000000        0xc out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xd9 out/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x9a5 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x7c out/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x1a7 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xc4 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x22 out/user_ta_header.o
+ .debug_macro   0x0000000000000000      0x16d out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x35 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x58 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x34 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x94 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0xd0 out/user_ta_header.o
+ .debug_macro   0x0000000000000000       0x22 out/user_ta_header.o
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xdb /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xd0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xa4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xdb /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xd0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xd0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xa4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xd0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x124 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x79 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x124 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x1e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xe1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x16d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x94 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x9a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x35 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xd0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.ta_head        0x0000000000000000       0x20
+ *(SORT_BY_ALIGNMENT(.ta_head))
+ .ta_head       0x0000000000000000       0x20 out/user_ta_header.o
+                0x0000000000000000                ta_head
+
+.text           0x0000000000000020     0x99f0
+                0x0000000000000020                __text_start = .
+ *(SORT_BY_ALIGNMENT(.text) SORT_BY_ALIGNMENT(.text.*))
+ .text          0x0000000000000020       0xec /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                0x0000000000000020                memcpy
+ .text          0x000000000000010c      0x34c out/secure_storage_ta.o
+                0x000000000000010c                TA_CreateEntryPoint
+                0x0000000000000114                TA_DestroyEntryPoint
+                0x0000000000000118                TA_OpenSessionEntryPoint
+                0x0000000000000120                TA_CloseSessionEntryPoint
+                0x0000000000000124                TA_InvokeCommandEntryPoint
+ .text          0x0000000000000458       0x1c out/user_ta_header.o
+                0x0000000000000458                __ta_entry
+                0x000000000000046c                tahead_get_trace_level
+ .text          0x0000000000000474      0x290 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                0x0000000000000474                trace_set_level
+                0x0000000000000490                trace_get_level
+                0x00000000000004a0                trace_vprintf
+                0x0000000000000690                trace_printf
+                0x0000000000000700                dhex_dump
+ .text          0x0000000000000704      0xcfc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                0x0000000000000704                __vsnprintf
+                0x0000000000001338                vsnprintk
+                0x000000000000138c                snprintk
+ .text          0x0000000000001400       0x2c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                0x0000000000001400                memchr
+ .text          0x000000000000142c       0x1c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                0x000000000000142c                strlen
+ .text          0x0000000000001448      0x174 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                0x0000000000001448                trace_ext_puts
+                0x0000000000001470                trace_ext_get_thread_id
+                0x0000000000001478                printf
+                0x0000000000001540                puts
+                0x0000000000001580                putchar
+ .text          0x00000000000015bc      0x71c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                0x0000000000001674                TEE_CloseTASession
+                0x000000000000169c                TEE_GetCancellationFlag
+                0x00000000000016c8                TEE_UnmaskCancellation
+                0x00000000000016f4                TEE_MaskCancellation
+                0x0000000000001720                TEE_CheckMemoryAccessRights
+                0x0000000000001904                TEE_InvokeTACommand
+                0x0000000000001a08                TEE_OpenTASession
+                0x0000000000001ae4                TEE_SetInstanceData
+                0x0000000000001af0                TEE_GetInstanceData
+                0x0000000000001afc                TEE_MemMove
+                0x0000000000001b04                TEE_MemCompare
+                0x0000000000001b0c                TEE_MemFill
+                0x0000000000001b14                TEE_GetSystemTime
+                0x0000000000001b3c                TEE_Wait
+                0x0000000000001b78                TEE_GetTAPersistentTime
+                0x0000000000001bec                TEE_SetTAPersistentTime
+                0x0000000000001c30                TEE_GetREETime
+                0x0000000000001c58                TEE_Malloc
+                0x0000000000001cb4                TEE_Realloc
+                0x0000000000001cbc                TEE_Free
+                0x0000000000001cc0                TEE_CacheClean
+                0x0000000000001cc8                TEE_CacheFlush
+                0x0000000000001cd0                TEE_CacheInvalidate
+ .text          0x0000000000001cd8      0xce4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+                0x0000000000001cd8                __utee_from_attr
+                0x0000000000001d28                TEE_GetObjectInfo
+                0x0000000000001d70                TEE_GetObjectInfo1
+                0x0000000000001db0                TEE_RestrictObjectUsage1
+                0x0000000000001df4                TEE_RestrictObjectUsage
+                0x0000000000001e44                TEE_GetObjectBufferAttribute
+                0x0000000000001ef0                TEE_GetObjectValueAttribute
+                0x0000000000001fc4                TEE_CloseObject
+                0x0000000000001fec                TEE_AllocateTransientObject
+                0x0000000000002050                TEE_FreeTransientObject
+                0x00000000000020a4                TEE_ResetTransientObject
+                0x00000000000020f8                TEE_PopulateTransientObject
+                0x00000000000021b8                TEE_InitRefAttribute
+                0x000000000000220c                TEE_InitValueAttribute
+                0x000000000000225c                TEE_CopyObjectAttributes1
+                0x0000000000002308                TEE_CopyObjectAttributes
+                0x000000000000235c                TEE_GenerateKey
+                0x00000000000023e4                TEE_OpenPersistentObject
+                0x0000000000002490                TEE_CreatePersistentObject
+                0x0000000000002548                TEE_CloseAndDeletePersistentObject1
+                0x0000000000002590                TEE_CloseAndDeletePersistentObject
+                0x00000000000025bc                TEE_RenamePersistentObject
+                0x0000000000002630                TEE_AllocatePersistentObjectEnumerator
+                0x0000000000002690                TEE_FreePersistentObjectEnumerator
+                0x00000000000026b8                TEE_ResetPersistentObjectEnumerator
+                0x00000000000026e0                TEE_StartPersistentObjectEnumerator
+                0x0000000000002730                TEE_GetNextPersistentObject
+                0x00000000000027b0                TEE_ReadObjectData
+                0x000000000000281c                TEE_WriteObjectData
+                0x0000000000002884                TEE_TruncateObjectData
+                0x00000000000028e4                TEE_SeekObjectData
+ .text          0x00000000000029bc        0x8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                0x00000000000029bc                TEE_Panic
+ .text          0x00000000000029c4      0x188 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                0x0000000000002a4c                tee_map_zi
+                0x0000000000002ac0                tee_unmap
+ .text._utee_panic
+                0x0000000000002b4c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b4c                _utee_panic
+ .text._utee_return
+                0x0000000000002b58        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b58                _utee_return
+ .text._utee_log
+                0x0000000000002b64        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b64                _utee_log
+ .text.__utee_panic
+                0x0000000000002b70        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b70                __utee_panic
+ .text._utee_get_property
+                0x0000000000002b7c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b7c                _utee_get_property
+ .text._utee_get_property_name_to_index
+                0x0000000000002b88        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b88                _utee_get_property_name_to_index
+ .text._utee_open_ta_session
+                0x0000000000002b94        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002b94                _utee_open_ta_session
+ .text._utee_close_ta_session
+                0x0000000000002ba0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002ba0                _utee_close_ta_session
+ .text._utee_invoke_ta_command
+                0x0000000000002bac        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bac                _utee_invoke_ta_command
+ .text._utee_get_cancellation_flag
+                0x0000000000002bb8        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bb8                _utee_get_cancellation_flag
+ .text._utee_check_access_rights
+                0x0000000000002bc4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bc4                _utee_check_access_rights
+ .text._utee_unmask_cancellation
+                0x0000000000002bd0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bd0                _utee_unmask_cancellation
+ .text._utee_mask_cancellation
+                0x0000000000002bdc        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bdc                _utee_mask_cancellation
+ .text._utee_wait
+                0x0000000000002be8        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002be8                _utee_wait
+ .text._utee_get_time
+                0x0000000000002bf4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002bf4                _utee_get_time
+ .text._utee_set_ta_time
+                0x0000000000002c00        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c00                _utee_set_ta_time
+ .text._utee_cryp_state_alloc
+                0x0000000000002c0c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c0c                _utee_cryp_state_alloc
+ .text._utee_cryp_state_copy
+                0x0000000000002c18        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c18                _utee_cryp_state_copy
+ .text._utee_cryp_state_free
+                0x0000000000002c24        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c24                _utee_cryp_state_free
+ .text._utee_hash_init
+                0x0000000000002c30        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c30                _utee_hash_init
+ .text._utee_hash_update
+                0x0000000000002c3c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c3c                _utee_hash_update
+ .text._utee_hash_final
+                0x0000000000002c48        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c48                _utee_hash_final
+ .text._utee_cipher_init
+                0x0000000000002c54        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c54                _utee_cipher_init
+ .text._utee_cipher_update
+                0x0000000000002c60        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c60                _utee_cipher_update
+ .text._utee_cipher_final
+                0x0000000000002c6c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c6c                _utee_cipher_final
+ .text._utee_cryp_obj_get_info
+                0x0000000000002c78        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c78                _utee_cryp_obj_get_info
+ .text._utee_cryp_obj_restrict_usage
+                0x0000000000002c84        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c84                _utee_cryp_obj_restrict_usage
+ .text._utee_cryp_obj_get_attr
+                0x0000000000002c90        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c90                _utee_cryp_obj_get_attr
+ .text._utee_cryp_obj_alloc
+                0x0000000000002c9c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002c9c                _utee_cryp_obj_alloc
+ .text._utee_cryp_obj_close
+                0x0000000000002ca8        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002ca8                _utee_cryp_obj_close
+ .text._utee_cryp_obj_reset
+                0x0000000000002cb4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002cb4                _utee_cryp_obj_reset
+ .text._utee_cryp_obj_populate
+                0x0000000000002cc0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002cc0                _utee_cryp_obj_populate
+ .text._utee_cryp_obj_copy
+                0x0000000000002ccc        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002ccc                _utee_cryp_obj_copy
+ .text._utee_cryp_derive_key
+                0x0000000000002cd8        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002cd8                _utee_cryp_derive_key
+ .text._utee_cryp_random_number_generate
+                0x0000000000002ce4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002ce4                _utee_cryp_random_number_generate
+ .text._utee_authenc_init
+                0x0000000000002cf0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002cf0                _utee_authenc_init
+ .text._utee_authenc_update_aad
+                0x0000000000002cfc        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002cfc                _utee_authenc_update_aad
+ .text._utee_authenc_update_payload
+                0x0000000000002d08        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d08                _utee_authenc_update_payload
+ .text._utee_authenc_enc_final
+                0x0000000000002d14        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d14                _utee_authenc_enc_final
+ .text._utee_authenc_dec_final
+                0x0000000000002d20        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d20                _utee_authenc_dec_final
+ .text._utee_asymm_operate
+                0x0000000000002d2c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d2c                _utee_asymm_operate
+ .text._utee_asymm_verify
+                0x0000000000002d38        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d38                _utee_asymm_verify
+ .text._utee_storage_obj_open
+                0x0000000000002d44        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d44                _utee_storage_obj_open
+ .text._utee_storage_obj_create
+                0x0000000000002d50        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d50                _utee_storage_obj_create
+ .text._utee_storage_obj_del
+                0x0000000000002d5c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d5c                _utee_storage_obj_del
+ .text._utee_storage_obj_rename
+                0x0000000000002d68        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d68                _utee_storage_obj_rename
+ .text._utee_storage_alloc_enum
+                0x0000000000002d74        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d74                _utee_storage_alloc_enum
+ .text._utee_storage_free_enum
+                0x0000000000002d80        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d80                _utee_storage_free_enum
+ .text._utee_storage_reset_enum
+                0x0000000000002d8c        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d8c                _utee_storage_reset_enum
+ .text._utee_storage_start_enum
+                0x0000000000002d98        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002d98                _utee_storage_start_enum
+ .text._utee_storage_next_enum
+                0x0000000000002da4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002da4                _utee_storage_next_enum
+ .text._utee_storage_obj_read
+                0x0000000000002db0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002db0                _utee_storage_obj_read
+ .text._utee_storage_obj_write
+                0x0000000000002dbc        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002dbc                _utee_storage_obj_write
+ .text._utee_storage_obj_trunc
+                0x0000000000002dc8        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002dc8                _utee_storage_obj_trunc
+ .text._utee_storage_obj_seek
+                0x0000000000002dd4        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002dd4                _utee_storage_obj_seek
+ .text._utee_cryp_obj_generate_key
+                0x0000000000002de0        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002de0                _utee_cryp_obj_generate_key
+ .text._utee_cache_operation
+                0x0000000000002dec        0xc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000002dec                _utee_cache_operation
+ .text          0x0000000000002df8      0x50c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                0x0000000000002f14                __utee_call_elf_init_fn
+                0x0000000000002fc8                __utee_call_elf_fini_fn
+                0x0000000000003104                __utee_entry
+ .text          0x0000000000003304     0x1944 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                0x0000000000003b0c                _TEE_MathAPI_Init
+                0x0000000000003b5c                TEE_BigIntInit
+                0x0000000000003bcc                TEE_BigIntConvertFromOctetString
+                0x0000000000003c58                TEE_BigIntConvertToOctetString
+                0x0000000000003cec                TEE_BigIntConvertFromS32
+                0x0000000000003d70                TEE_BigIntConvertToS32
+                0x0000000000003df8                TEE_BigIntCmp
+                0x0000000000003e60                TEE_BigIntCmpS32
+                0x000000000000403c                TEE_BigIntShiftRight
+                0x00000000000041a8                TEE_BigIntGetBit
+                0x00000000000041f4                TEE_BigIntGetBitCount
+                0x0000000000004234                TEE_BigIntAdd
+                0x0000000000004240                TEE_BigIntSub
+                0x000000000000424c                TEE_BigIntNeg
+                0x00000000000042fc                TEE_BigIntMul
+                0x00000000000043e4                TEE_BigIntSquare
+                0x00000000000043ec                TEE_BigIntDiv
+                0x0000000000004564                TEE_BigIntMod
+                0x00000000000045c8                TEE_BigIntAddMod
+                0x00000000000045d4                TEE_BigIntSubMod
+                0x00000000000045e0                TEE_BigIntMulMod
+                0x00000000000045ec                TEE_BigIntSquareMod
+                0x00000000000045f8                TEE_BigIntInvMod
+                0x0000000000004714                TEE_BigIntRelativePrime
+                0x00000000000047e8                TEE_BigIntComputeExtendedGcd
+                0x0000000000004a20                TEE_BigIntIsProbablePrime
+                0x0000000000004a70                TEE_BigIntInitFMM
+                0x0000000000004a74                TEE_BigIntInitFMMContext
+                0x0000000000004a78                TEE_BigIntFMMSizeInU32
+                0x0000000000004a88                TEE_BigIntFMMContextSizeInU32
+                0x0000000000004a90                TEE_BigIntConvertToFMM
+                0x0000000000004a94                TEE_BigIntConvertFromFMM
+                0x0000000000004b30                TEE_BigIntComputeFMM
+ .text          0x0000000000004c48     0x3de8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                0x0000000000005254                mbedtls_mpi_init
+                0x0000000000005264                mbedtls_mpi_init_mempool
+                0x000000000000528c                mbedtls_mpi_free
+                0x00000000000052f8                mbedtls_mpi_grow
+                0x00000000000053f0                mbedtls_mpi_shrink
+                0x0000000000005510                mbedtls_mpi_copy
+                0x00000000000055c4                mbedtls_mpi_swap
+                0x0000000000005624                mbedtls_mpi_safe_cond_assign
+                0x00000000000056e4                mbedtls_mpi_safe_cond_swap
+                0x00000000000057c8                mbedtls_mpi_lset
+                0x0000000000005830                mbedtls_mpi_get_bit
+                0x000000000000585c                mbedtls_mpi_set_bit
+                0x00000000000058e8                mbedtls_mpi_lsb
+                0x000000000000593c                mbedtls_mpi_bitlen
+                0x0000000000005998                mbedtls_mpi_size
+                0x00000000000059b4                mbedtls_mpi_read_binary_le
+                0x0000000000005a58                mbedtls_mpi_read_binary
+                0x0000000000005b20                mbedtls_mpi_write_binary_le
+                0x0000000000005bd8                mbedtls_mpi_write_binary
+                0x0000000000005c9c                mbedtls_mpi_shift_l
+                0x0000000000005d9c                mbedtls_mpi_shift_r
+                0x0000000000005e64                mbedtls_mpi_cmp_abs
+                0x0000000000005f00                mbedtls_mpi_cmp_mpi
+                0x0000000000005fd8                mbedtls_mpi_lt_mpi_ct
+                0x00000000000060b0                mbedtls_mpi_cmp_int
+                0x00000000000060f0                mbedtls_mpi_add_abs
+                0x000000000000621c                mbedtls_mpi_sub_abs
+                0x00000000000062f0                mbedtls_mpi_add_mpi
+                0x0000000000006378                mbedtls_mpi_sub_mpi
+                0x0000000000006404                mbedtls_mpi_add_int
+                0x0000000000006444                mbedtls_mpi_sub_int
+                0x0000000000006484                mbedtls_mpi_mul_mpi
+                0x00000000000065d4                mbedtls_mpi_mul_int
+                0x0000000000006608                mbedtls_mpi_read_string
+                0x00000000000067ec                mbedtls_mpi_div_mpi
+                0x0000000000006cd0                mbedtls_mpi_div_int
+                0x0000000000006d10                mbedtls_mpi_mod_mpi
+                0x0000000000006dc4                mbedtls_mpi_mod_int
+                0x0000000000006e64                mbedtls_mpi_write_string
+                0x0000000000007138                mbedtls_mpi_montg_init
+                0x0000000000007174                mbedtls_mpi_montmul
+                0x00000000000072a8                mbedtls_mpi_montred
+                0x00000000000072e8                mbedtls_mpi_exp_mod
+                0x0000000000007974                mbedtls_mpi_gcd
+                0x0000000000007b1c                mbedtls_mpi_fill_random
+                0x0000000000007e58                mbedtls_mpi_inv_mod
+                0x0000000000008290                mbedtls_mpi_is_prime_ext
+                0x0000000000008338                mbedtls_mpi_is_prime
+                0x0000000000008348                mbedtls_mpi_gen_prime
+                0x0000000000008654                mbedtls_mpi_self_test
+ .text          0x0000000000008a30       0x1c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                0x0000000000008a30                mbedtls_platform_zeroize
+ .text          0x0000000000008a4c      0xc10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                0x0000000000008a90                bget
+                0x0000000000008c50                bgetz
+                0x0000000000008cdc                brel
+                0x0000000000008f98                bgetr
+                0x0000000000009064                bpool
+                0x0000000000009138                bstats
+                0x00000000000091d0                malloc_reset_stats
+                0x00000000000091e8                malloc_get_stats
+                0x0000000000009220                malloc
+                0x0000000000009270                calloc
+                0x00000000000092d4                realloc
+                0x0000000000009324                free
+                0x000000000000933c                free_wipe
+                0x0000000000009354                malloc_add_pool
+                0x0000000000009470                malloc_buffer_is_within_alloced
+                0x00000000000095f0                malloc_buffer_overlaps_heap
+ .text          0x000000000000965c       0xcc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                0x000000000000965c                snprintf
+                0x00000000000096d4                vsnprintf
+ .text          0x0000000000009728       0x5c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                0x0000000000009728                memmove
+ .text          0x0000000000009784       0x1c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                0x0000000000009784                memset
+ .text          0x00000000000097a0      0x1a8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                0x00000000000097a0                mempool_alloc_pool
+                0x0000000000009808                mempool_alloc
+                0x00000000000098b4                mempool_calloc
+                0x0000000000009904                mempool_free
+ .text          0x0000000000009948       0x70 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                0x0000000000009948                consttime_memcmp
+ .text          0x00000000000099b8       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                0x00000000000099b8                _assert_log
+                0x00000000000099fc                _assert_break
+ .text          0x0000000000009a10        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ *(SORT_BY_ALIGNMENT(.stub))
+ *(SORT_BY_ALIGNMENT(.glue_7))
+ *(SORT_BY_ALIGNMENT(.glue_7t))
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.t.*))
+ *(SORT_BY_ALIGNMENT(.vfp11_veneer))
+                0x0000000000009a10                __text_end = .
+
+.plt            0x0000000000009a10        0x0
+ *(SORT_BY_ALIGNMENT(.plt))
+ .plt           0x0000000000009a10        0x0 out/secure_storage_ta.o
+
+.eh_frame       0x0000000000009a10     0x1fe0
+ *(SORT_BY_ALIGNMENT(.eh_frame))
+ .eh_frame      0x0000000000009a10       0xa0 out/secure_storage_ta.o
+ .eh_frame      0x0000000000009ab0       0x30 out/user_ta_header.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000009ae0       0xa0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x0000000000009b80       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000009b98       0x90 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x0000000000009c28       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000009c40       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000009c58       0xb0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000009d08      0x340 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                                        0x358 (size before relaxing)
+ .eh_frame      0x000000000000a048      0x4c8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+                                        0x4e0 (size before relaxing)
+ .eh_frame      0x000000000000a510       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000a528       0x88 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000000a5b0      0x138 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                                        0x148 (size before relaxing)
+ .eh_frame      0x000000000000a6e8      0x630 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                                        0x640 (size before relaxing)
+ .eh_frame      0x000000000000ad18      0x948 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                                        0x958 (size before relaxing)
+ .eh_frame      0x000000000000b660       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000b678      0x228 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                        0x238 (size before relaxing)
+ .eh_frame      0x000000000000b8a0       0x48 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000000b8e8       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000b900       0x18 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000b918       0x80 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000000b998       0x20 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000b9b8       0x38 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                                         0x50 (size before relaxing)
+
+.rodata         0x000000000000b9f0     0x1041
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*))
+ .rodata.user_ta_header.c
+                0x000000000000b9f0       0x23 out/user_ta_header.o
+                0x000000000000b9f0                ta_num_props
+                0x000000000000ba08                ta_heap_size
+                0x000000000000ba10                trace_ext_prefix
+ *fill*         0x000000000000ba13        0x1 
+ .rodata.lib/libutee/tee_api.c
+                0x000000000000ba14       0x1a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ *fill*         0x000000000000ba2e        0x2 
+ .rodata.lib/libutee/tee_system_pta.c
+                0x000000000000ba30       0x1a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ *fill*         0x000000000000ba4a        0x2 
+ .rodata.lib/libutee/arch/arm/user_ta_entry.c
+                0x000000000000ba4c        0xf /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ *fill*         0x000000000000ba5b        0x1 
+ .rodata.lib/libmbedtls/mbedtls/library/bignum.c
+                0x000000000000ba5c      0x2c4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .rodata.secure_storage_ta.c
+                0x000000000000bd20       0x4b out/secure_storage_ta.o
+ .rodata.str1.1.secure_storage_ta.c
+                0x000000000000bd6b       0xfa out/secure_storage_ta.o
+ .rodata.str1.1.user_ta_header.c
+                0x000000000000be65      0x109 out/user_ta_header.o
+ .rodata.lib/libutils/ext/trace.c
+                0x000000000000bf6e        0x5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .rodata.str1.1.lib/libutils/ext/trace.c
+                0x000000000000bf73       0x1a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                         0x1b (size before relaxing)
+ .rodata.lib/libutils/ext/snprintk.c
+                0x000000000000bf8d       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .rodata.str1.1.lib/libutils/ext/snprintk.c
+                0x000000000000bfaf       0x38 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .rodata.str1.1.lib/libutee/trace_ext.c
+                0x000000000000bfe7       0x38 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                          0x2 (size before relaxing)
+ .rodata.str1.1.lib/libutee/tee_api.c
+                0x000000000000bfe7       0x11 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .rodata.str1.1.lib/libutee/tee_system_pta.c
+                0x000000000000bff8       0x2a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .rodata.lib/libutee/tee_api_arith_mpi.c
+                0x000000000000c022      0x13d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .rodata.str1.1.lib/libutee/tee_api_arith_mpi.c
+                0x000000000000c15f       0xb7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .rodata.str1.1.lib/libmbedtls/mbedtls/library/bignum.c
+                0x000000000000c216      0x45d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .rodata.lib/libutils/isoc/bget_malloc.c
+                0x000000000000c673       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .rodata.str1.1.lib/libutils/isoc/bget_malloc.c
+                0x000000000000c6cb      0x2a4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                        0x2ad (size before relaxing)
+ .rodata.lib/libutils/ext/mempool.c
+                0x000000000000c96f       0x21 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .rodata.str1.1.lib/libutils/ext/mempool.c
+                0x000000000000c990       0x7a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .rodata.str1.1.lib/libutee/assert.c
+                0x000000000000ca0a       0x27 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.gnu.version_d  0x000000000000ca38        0x0
+ .gnu.version_d
+                0x000000000000ca38        0x0 out/secure_storage_ta.o
+
+.gnu.version    0x000000000000ca32        0x0
+ .gnu.version   0x000000000000ca32        0x0 out/secure_storage_ta.o
+
+.gnu.version_r  0x000000000000ca38        0x0
+ .gnu.version_r
+                0x000000000000ca38        0x0 out/secure_storage_ta.o
+
+.gnu.hash       0x000000000000ca38       0x24
+ .gnu.hash      0x000000000000ca38       0x24 out/secure_storage_ta.o
+
+.ARM.extab
+ *(SORT_BY_ALIGNMENT(.ARM.extab*) SORT_BY_ALIGNMENT(.gnu.linkonce.armextab.*))
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+
+.ctors
+ *(SORT_BY_ALIGNMENT(.ctors))
+
+.dtors
+ *(SORT_BY_ALIGNMENT(.dtors))
+
+.dynsym         0x000000000000ca60       0x60
+ *(SORT_BY_ALIGNMENT(.dynsym))
+ .dynsym        0x000000000000ca60       0x60 out/secure_storage_ta.o
+
+.dynstr         0x000000000000cac0       0x12
+ *(SORT_BY_ALIGNMENT(.dynstr))
+ .dynstr        0x000000000000cac0       0x12 out/secure_storage_ta.o
+
+.hash           0x000000000000cad8       0x1c
+ *(SORT_BY_ALIGNMENT(.hash))
+ .hash          0x000000000000cad8       0x1c out/secure_storage_ta.o
+
+.rela.dyn       0x000000000000caf8      0x210
+ .rela.data.rel.ro
+                0x000000000000caf8        0x0 out/secure_storage_ta.o
+ .rela.ifunc    0x000000000000caf8        0x0 out/secure_storage_ta.o
+ .rela.data.rel.ro.local
+                0x000000000000caf8      0x1b0 out/secure_storage_ta.o
+ .rela.data.rel.local
+                0x000000000000cca8       0x48 out/secure_storage_ta.o
+ .rela.data.rel
+                0x000000000000ccf0       0x18 out/secure_storage_ta.o
+                0x000000000000d000                . = ALIGN (0x1000)
+
+.dynamic        0x000000000000d000      0x110
+ *(SORT_BY_ALIGNMENT(.dynamic))
+ .dynamic       0x000000000000d000      0x110 out/secure_storage_ta.o
+                0x000000000000d000                _DYNAMIC
+
+.got            0x000000000000d110       0x88
+ *(SORT_BY_ALIGNMENT(.got.plt))
+ .got.plt       0x000000000000d110       0x18 out/secure_storage_ta.o
+ *(SORT_BY_ALIGNMENT(.got))
+ .got           0x000000000000d128       0x70 out/secure_storage_ta.o
+                0x000000000000d128                _GLOBAL_OFFSET_TABLE_
+
+.rel.text
+ *(SORT_BY_ALIGNMENT(.rel.text))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.t*))
+
+.rela.text
+ *(SORT_BY_ALIGNMENT(.rela.text))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.t*))
+
+.rel.data
+ *(SORT_BY_ALIGNMENT(.rel.data))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.d*))
+
+.rela.data
+ *(SORT_BY_ALIGNMENT(.rela.data))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.d*))
+
+.rel.rodata
+ *(SORT_BY_ALIGNMENT(.rel.rodata))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.r*))
+
+.rela.rodata
+ *(SORT_BY_ALIGNMENT(.rela.rodata))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.r*))
+
+.rel.dyn
+ *(SORT_BY_ALIGNMENT(.rel.dyn))
+
+.rel.got
+ *(SORT_BY_ALIGNMENT(.rel.got))
+
+.rela.got       0x000000000000d198      0x138
+ *(SORT_BY_ALIGNMENT(.rela.got))
+ .rela.got      0x000000000000d198      0x138 out/secure_storage_ta.o
+
+.rel.ctors
+ *(SORT_BY_ALIGNMENT(.rel.ctors))
+
+.rela.ctors
+ *(SORT_BY_ALIGNMENT(.rela.ctors))
+
+.rel.dtors
+ *(SORT_BY_ALIGNMENT(.rel.dtors))
+
+.rela.dtors
+ *(SORT_BY_ALIGNMENT(.rela.dtors))
+
+.rel.init
+ *(SORT_BY_ALIGNMENT(.rel.init))
+
+.rela.init
+ *(SORT_BY_ALIGNMENT(.rela.init))
+
+.rel.fini
+ *(SORT_BY_ALIGNMENT(.rel.fini))
+
+.rela.fini
+ *(SORT_BY_ALIGNMENT(.rela.fini))
+
+.rel.bss
+ *(SORT_BY_ALIGNMENT(.rel.bss))
+
+.rela.bss       0x000000000000d2d0        0x0
+ *(SORT_BY_ALIGNMENT(.rela.bss))
+ .rela.bss      0x000000000000d2d0        0x0 out/secure_storage_ta.o
+
+.rel.plt
+ *(SORT_BY_ALIGNMENT(.rel.plt))
+
+.rela.plt       0x000000000000d2d0        0x0
+ *(SORT_BY_ALIGNMENT(.rela.plt))
+ .rela.plt      0x000000000000d2d0        0x0 out/secure_storage_ta.o
+
+.data           0x000000000000d2d0      0x174
+ *(SORT_BY_ALIGNMENT(.data) SORT_BY_ALIGNMENT(.data.*) SORT_BY_ALIGNMENT(.gnu.linkonce.d.*))
+ .data.rel.ro.local
+                0x000000000000d2d0       0xd8 out/user_ta_header.o
+                0x000000000000d2d0                ta_props
+ .data.rel.local
+                0x000000000000d3a8       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .data.rel      0x000000000000d3b8        0x8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .data.rel.local
+                0x000000000000d3c0       0x80 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000000d440        0x4 out/user_ta_header.o
+                0x000000000000d440                trace_level
+ .data          0x000000000000d444        0x0 out/secure_storage_ta.o
+ .data.rel.ro   0x000000000000d444        0x0 out/secure_storage_ta.o
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .data          0x000000000000d444        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.bss            0x000000000000d448     0xb078
+ *(SORT_BY_ALIGNMENT(.bss) SORT_BY_ALIGNMENT(.bss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.b.*) SORT_BY_ALIGNMENT(COMMON))
+ .bss           0x000000000000d448        0x8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .bss           0x000000000000d450        0x8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ COMMON         0x000000000000d458       0x58 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                0x000000000000d458                __init_fini_info
+                0x000000000000d468                ta_param_types
+                0x000000000000d470                ta_params
+ .bss           0x000000000000d4b0     0x3000 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ COMMON         0x00000000000104b0        0x8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                0x00000000000104b0                mbedtls_mpi_mempool
+ .bss           0x00000000000104b8        0x0 out/secure_storage_ta.o
+ .bss           0x00000000000104b8        0x0 out/user_ta_header.o
+ COMMON         0x00000000000104b8     0x8000 out/user_ta_header.o
+                0x00000000000104b8                ta_heap
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .bss           0x00000000000184b8        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .bss           0x00000000000184b8        0x1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .bss           0x00000000000184b9        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                0x00000000000184c0                . = ALIGN (0x8)
+ *fill*         0x00000000000184b9        0x7 
+                0x00000000000184c0                __ftrace_buf_start = .
+                0x00000000000184c0                . = (. + DEFINED (_mcount)?0x800:0x0)
+                0x00000000000184c0                __ftrace_buf_end = .
+
+.dynbss         0x00000000000184c0        0x0
+ .dynbss        0x00000000000184c0        0x0 out/secure_storage_ta.o
+
+/DISCARD/
+ *(SORT_BY_ALIGNMENT(.interp))
+LOAD out/secure_storage_ta.o
+LOAD out/user_ta_header.o
+START GROUP
+LOAD /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a
+LOAD /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a
+LOAD /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a
+LOAD /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libdl.a
+END GROUP
+LOAD /home/nk/optee/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.3.0/libgcc.a
+OUTPUT(out/f4e750bb-1437-4fbf-8785-8d3580c34994.elf elf64-littleaarch64)
+
+.debug_info     0x0000000000000000    0x13ba1
+ .debug_info    0x0000000000000000      0xaea out/secure_storage_ta.o
+ .debug_info    0x0000000000000aea      0x4a1 out/user_ta_header.o
+ .debug_info    0x0000000000000f8b      0x691 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_info    0x000000000000161c      0x12e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_info    0x000000000000174a      0x83e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_info    0x0000000000001f88       0xf8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_info    0x0000000000002080       0xb0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_info    0x0000000000002130      0x364 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_info    0x0000000000002494     0x15bd /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_info    0x0000000000003a51     0x1c79 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_info    0x00000000000056ca      0x117 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_info    0x00000000000057e1      0x622 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_info    0x0000000000005e03       0x22 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_info    0x0000000000005e25      0xf2d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_info    0x0000000000006d52     0x4639 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_info    0x000000000000b38b     0x5990 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_info    0x0000000000010d1b      0x11e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_info    0x0000000000010e39     0x216d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_info    0x0000000000012fa6      0x242 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_info    0x00000000000131e8       0xf5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_info    0x00000000000132dd       0xc8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_info    0x00000000000133a5      0x516 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_info    0x00000000000138bb      0x12d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_info    0x00000000000139e8      0x1b9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_abbrev   0x0000000000000000     0x3118
+ .debug_abbrev  0x0000000000000000      0x279 out/secure_storage_ta.o
+ .debug_abbrev  0x0000000000000279      0x1d9 out/user_ta_header.o
+ .debug_abbrev  0x0000000000000452      0x275 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_abbrev  0x00000000000006c7       0xb8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_abbrev  0x000000000000077f      0x2d0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_abbrev  0x0000000000000a4f       0xb2 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_abbrev  0x0000000000000b01       0x87 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_abbrev  0x0000000000000b88      0x18e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_abbrev  0x0000000000000d16      0x44f /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_abbrev  0x0000000000001165      0x316 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_abbrev  0x000000000000147b       0xc1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_abbrev  0x000000000000153c      0x26c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_abbrev  0x00000000000017a8       0x12 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_abbrev  0x00000000000017ba      0x44b /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_abbrev  0x0000000000001c05      0x4c1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_abbrev  0x00000000000020c6      0x54c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_abbrev  0x0000000000002612       0xc3 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_abbrev  0x00000000000026d5      0x443 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_abbrev  0x0000000000002b18      0x138 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_abbrev  0x0000000000002c50       0xa4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_abbrev  0x0000000000002cf4       0xa3 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_abbrev  0x0000000000002d97      0x1ea /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_abbrev  0x0000000000002f81       0xc0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_abbrev  0x0000000000003041       0xd7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_loc      0x0000000000000000    0x1d7ce
+ .debug_loc     0x0000000000000000      0xd5c out/secure_storage_ta.o
+ .debug_loc     0x0000000000000d5c      0x119 out/user_ta_header.o
+ .debug_loc     0x0000000000000e75      0x6ed /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_loc     0x0000000000001562      0x646 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_loc     0x0000000000001ba8     0x2734 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_loc     0x00000000000042dc      0x118 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_loc     0x00000000000043f4       0x8c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_loc     0x0000000000004480      0x1c4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_loc     0x0000000000004644     0x1858 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_loc     0x0000000000005e9c     0x26b7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_loc     0x0000000000008553       0x3d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_loc     0x0000000000008590      0x4b3 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_loc     0x0000000000008a43      0xdc1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_loc     0x0000000000009804     0x437c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_loc     0x000000000000db80     0xb1b7 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_loc     0x0000000000018d37       0xb9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_loc     0x0000000000018df0     0x3ac0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_loc     0x000000000001c8b0      0x1d2 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_loc     0x000000000001ca82      0x327 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_loc     0x000000000001cda9       0xcf /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_loc     0x000000000001ce78      0x5ea /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_loc     0x000000000001d462      0x223 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_loc     0x000000000001d685      0x149 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_aranges  0x0000000000000000      0x800
+ .debug_aranges
+                0x0000000000000000       0x30 out/secure_storage_ta.o
+ .debug_aranges
+                0x0000000000000030       0x30 out/user_ta_header.o
+ .debug_aranges
+                0x0000000000000060       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_aranges
+                0x0000000000000090       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_aranges
+                0x00000000000000c0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_aranges
+                0x00000000000000f0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_aranges
+                0x0000000000000120       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_aranges
+                0x0000000000000150       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_aranges
+                0x0000000000000180       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_aranges
+                0x00000000000001b0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_aranges
+                0x00000000000001e0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_aranges
+                0x0000000000000210       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_aranges
+                0x0000000000000240      0x3b0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_aranges
+                0x00000000000005f0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_aranges
+                0x0000000000000620       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_aranges
+                0x0000000000000650       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_aranges
+                0x0000000000000680       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_aranges
+                0x00000000000006b0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_aranges
+                0x00000000000006e0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_aranges
+                0x0000000000000710       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_aranges
+                0x0000000000000740       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_aranges
+                0x0000000000000770       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_aranges
+                0x00000000000007a0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_aranges
+                0x00000000000007d0       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_ranges   0x0000000000000000     0x18f0
+ .debug_ranges  0x0000000000000000       0x90 out/secure_storage_ta.o
+ .debug_ranges  0x0000000000000090       0x60 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_ranges  0x00000000000000f0       0x90 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_ranges  0x0000000000000180       0xb0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_ranges  0x0000000000000230       0x30 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_ranges  0x0000000000000260      0x3b0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_ranges  0x0000000000000610      0x230 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_ranges  0x0000000000000840      0x550 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_ranges  0x0000000000000d90      0x3c0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_ranges  0x0000000000001150      0x7a0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+
+.debug_macro    0x0000000000000000    0x10d09
+ .debug_macro   0x0000000000000000       0xdb out/secure_storage_ta.o
+ .debug_macro   0x00000000000000db      0x9a0 out/secure_storage_ta.o
+ .debug_macro   0x0000000000000a7b       0x7c out/secure_storage_ta.o
+ .debug_macro   0x0000000000000af7      0x1a7 out/secure_storage_ta.o
+ .debug_macro   0x0000000000000c9e       0xc4 out/secure_storage_ta.o
+ .debug_macro   0x0000000000000d62       0x22 out/secure_storage_ta.o
+ .debug_macro   0x0000000000000d84      0x16d out/secure_storage_ta.o
+ .debug_macro   0x0000000000000ef1       0xd9 out/secure_storage_ta.o
+ .debug_macro   0x0000000000000fca      0x9a5 out/secure_storage_ta.o
+ .debug_macro   0x000000000000196f       0x22 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001991       0x35 out/secure_storage_ta.o
+ .debug_macro   0x00000000000019c6       0x58 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001a1e       0x34 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001a52       0x94 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001ae6       0x10 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001af6       0xd0 out/secure_storage_ta.o
+ .debug_macro   0x0000000000001bc6      0x125 out/user_ta_header.o
+ .debug_macro   0x0000000000001ceb      0x9a0 out/user_ta_header.o
+ .debug_macro   0x000000000000268b       0xe1 out/user_ta_header.o
+ .debug_macro   0x000000000000276c       0xa4 out/user_ta_header.o
+ .debug_macro   0x0000000000002810       0x22 out/user_ta_header.o
+ .debug_macro   0x0000000000002832       0xd6 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000002908      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x000000000000324e      0x45e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x00000000000036ac       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x00000000000036c2       0xdb /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x000000000000379d       0x2e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x00000000000037cb       0x57 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000003822      0x940 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000004162       0x7c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x00000000000041de      0x134 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000004312      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000004c58       0x66 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000004cbe      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000005604       0x5a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x000000000000565e      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000005fa4       0xf1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000006095      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x00000000000069db      0x17d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000006b58      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x000000000000749e       0x28 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x00000000000074c6      0x142 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000007608      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_macro   0x0000000000007f4e       0xbd /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x000000000000800b      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000008951      0x13b /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000008a8c      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x00000000000093d2       0x82 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000009454      0x184 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x00000000000095d8      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000009f1e      0x2db /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000a1f9       0x34 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000a22d      0x1b1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a3de      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000ad24       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000ad34      0x124 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000ae58       0x79 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000aed1      0x1e9 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000b0ba      0x1b5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000b26f      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000bbb5       0x19 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000bbce       0x1e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000bbec       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000bbfc       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000bc0c      0x14e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000bd5a      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000c6a0       0x10 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000c6b0       0x7f /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000c72f       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000c745      0x154 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000c899      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000d1df       0x16 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000d1f5       0x3c /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000d231       0x4d /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000d27e      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000dbc4       0x64 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x000000000000dc28      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x000000000000e56e       0x51 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x000000000000e5bf      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x000000000000ef05       0xed /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x000000000000eff2      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x000000000000f938       0x3f /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x000000000000f977      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x00000000000102bd      0x106 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x00000000000103c3      0x946 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_line     0x0000000000000000     0xa971
+ .debug_line    0x0000000000000000      0x3ff out/secure_storage_ta.o
+ .debug_line    0x00000000000003ff      0x2a2 out/user_ta_header.o
+ .debug_line    0x00000000000006a1      0x3a1 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_line    0x0000000000000a42      0x1e8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_line    0x0000000000000c2a      0x8ad /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_line    0x00000000000014d7      0x165 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_line    0x000000000000163c      0x157 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_line    0x0000000000001793      0x2d6 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_line    0x0000000000001a69      0x947 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_line    0x00000000000023b0      0xbb0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .debug_line    0x0000000000002f60      0x1dc /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_line    0x000000000000313c      0x3b8 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_line    0x00000000000034f4      0x528 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_line    0x0000000000003a1c      0x7c6 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_line    0x00000000000041e2     0x1471 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_line    0x0000000000005653     0x35a6 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_line    0x0000000000008bf9      0x294 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_line    0x0000000000008e8d      0xe77 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_line    0x0000000000009d04      0x187 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_line    0x0000000000009e8b      0x186 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_line    0x000000000000a011      0x145 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_line    0x000000000000a156      0x3a5 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_line    0x000000000000a4fb      0x1ef /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_line    0x000000000000a6ea      0x287 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_str      0x0000000000000000    0x12bce
+ .debug_str     0x0000000000000000     0x8442 out/secure_storage_ta.o
+                                       0x85ec (size before relaxing)
+ .debug_str     0x0000000000008442     0x1062 out/user_ta_header.o
+                                       0x9391 (size before relaxing)
+ .debug_str     0x00000000000094a4     0x1239 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                       0x5fa3 (size before relaxing)
+ .debug_str     0x000000000000a6dd      0x313 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                                       0x4170 (size before relaxing)
+ .debug_str     0x000000000000a9f0      0x5b4 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                                       0x4e2b (size before relaxing)
+ .debug_str     0x000000000000afa4      0x13e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                                       0x4378 (size before relaxing)
+ .debug_str     0x000000000000b0e2       0x7a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                                       0x4315 (size before relaxing)
+ .debug_str     0x000000000000b15c       0x5e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                       0x957d (size before relaxing)
+ .debug_str     0x000000000000b1ba      0x59e /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                                       0xa64d (size before relaxing)
+ .debug_str     0x000000000000b758      0x67b /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+                                       0x95ec (size before relaxing)
+ .debug_str     0x000000000000bdd3       0x5a /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                                       0x8bd0 (size before relaxing)
+ .debug_str     0x000000000000be2d      0x328 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                                       0x9f47 (size before relaxing)
+ .debug_str     0x000000000000c155       0x37 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                                         0x4f (size before relaxing)
+ .debug_str     0x000000000000c18c     0x36a0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                                       0xd944 (size before relaxing)
+ .debug_str     0x000000000000f82c     0x1d15 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                                       0xb90a (size before relaxing)
+ .debug_str     0x0000000000011541      0x9a0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                                       0x6f10 (size before relaxing)
+ .debug_str     0x0000000000011ee1      0x3ff /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                                       0x5b8c (size before relaxing)
+ .debug_str     0x00000000000122e0      0x676 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                       0x6769 (size before relaxing)
+ .debug_str     0x0000000000012956       0x46 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                                       0x40ba (size before relaxing)
+ .debug_str     0x000000000001299c       0x5b /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                                       0x4354 (size before relaxing)
+ .debug_str     0x00000000000129f7       0x50 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                                       0x410a (size before relaxing)
+ .debug_str     0x0000000000012a47       0xdf /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                                       0x616f (size before relaxing)
+ .debug_str     0x0000000000012b26       0x68 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                                       0x4125 (size before relaxing)
+ .debug_str     0x0000000000012b8e       0x40 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                                       0x9251 (size before relaxing)
+
+.comment        0x0000000000000000       0x55
+ .comment       0x0000000000000000       0x55 out/secure_storage_ta.o
+                                         0x56 (size before relaxing)
+ .comment       0x0000000000000055       0x56 out/user_ta_header.o
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .comment       0x0000000000000055       0x56 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/secure_storage_ta.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 out/user_ta_header.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_objects.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/nk/optee/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)

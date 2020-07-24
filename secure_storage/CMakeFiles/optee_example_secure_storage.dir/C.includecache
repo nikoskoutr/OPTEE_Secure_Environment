@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nk/optee/out-br/build/optee_examples_ext-1.0/secure_storage/host/main.c
+err.h
+-
+stdio.h
+-
+string.h
+-
+tee_client_api.h
+-
+secure_storage_ta.h
+-
+
+secure_storage/ta/include/secure_storage_ta.h
+
