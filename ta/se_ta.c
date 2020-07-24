@@ -33,21 +33,19 @@ static TEE_Result RSA_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
 
   TEE_OperationHandle rsa_operation = NULL;
   TEE_Result ret = TEE_SUCCESS;
-  EMSG("!!!!!!!!!! DEBUG: entered rsa op with algorithm %d and mode %d", algorithm, mode);
   ret = TEE_AllocateOperation(&rsa_operation, algorithm, mode, MAX_RSA_KEYSIZE);
   if (ret != TEE_SUCCESS) {
-    DMSG("TEE_AllocateOperation failed: 0x%x", ret);
+    EMSG("TEE_AllocateOperation failed: 0x%x", ret);
     TEE_FreeOperation(rsa_operation);
     return ret;
   }
-  EMSG("!!!!!!!!!! DEBUG: done allocate operation");
+
   ret = TEE_SetOperationKey(rsa_operation, key);
   if (ret != TEE_SUCCESS) {
-    DMSG("TEE_SetOperationKey failed: 0x%x", ret);
+    EMSG("TEE_SetOperationKey failed: 0x%x", ret);
     TEE_FreeOperation(rsa_operation);
     return ret;
   }
-  EMSG("!!!!!!!!!! DEBUG: Done set operation key");
   // Switch with all available RSA modes: encrypt, decrypt, sign and verify.
   switch (mode) {
   case TEE_MODE_ENCRYPT:
@@ -55,8 +53,6 @@ static TEE_Result RSA_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
     if (ret != TEE_SUCCESS) {
       DMSG("TEE_AsymmetricEncrypt failed: 0x%x", ret);
     }
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric encrypt with in_data %s, size %d out_data %s, size %d", in_data, in_data_len, out_data, *out_data_len);
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric encrypt with sizes %d %d", in_data_len, *out_data_len);
     break;
 
   case TEE_MODE_DECRYPT:
@@ -64,13 +60,10 @@ static TEE_Result RSA_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
     if (ret != TEE_SUCCESS) {
       DMSG("TEE_AsymmetricDecrypt failed: 0x%x", ret);
     }
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric decrypt with in_data %s, size %d out_data %s, size %d", in_data, in_data_len, out_data, out_data_len);
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric decrypt with sizes %d %d", in_data_len, *out_data_len);
     break;
 
   case TEE_MODE_SIGN:
     ret = TEE_AsymmetricSignDigest(rsa_operation, NULL, 0, in_data, in_data_len, out_data, out_data_len);
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric sign");
     if (ret != TEE_SUCCESS) {
       DMSG("TEE_AsymmetricSignDigest failed: 0x%x", ret);
     }
@@ -78,7 +71,6 @@ static TEE_Result RSA_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
 
   case TEE_MODE_VERIFY:
     ret = TEE_AsymmetricVerifyDigest(rsa_operation, NULL, 0, in_data, in_data_len, out_data, *out_data_len);
-    EMSG("!!!!!!!!!! DEBUG: Done asymmetric verify");
     if (ret != TEE_SUCCESS) {
       DMSG("TEE_AsymmetricVerifyDigest failed: 0x%x", ret);
     }
@@ -87,9 +79,7 @@ static TEE_Result RSA_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
   default:
     DMSG("Unkown RSA mode type");
   }
-  // Always free the operation.
   TEE_FreeOperation(rsa_operation);
-  // Return the result.
   return ret;
 }
 
@@ -119,21 +109,17 @@ static TEE_Result AES_Operation(TEE_OperationMode mode, uint32_t algorithm, TEE_
     TEE_FreeOperation(aes_operation);
     return ret;
   }
-  EMSG("!!!!!!!!!!! DEBUG: Done allocate");
   ret = TEE_SetOperationKey(aes_operation, key);
   if (ret != TEE_SUCCESS) {
     EMSG("TEE_SetOperationKey failed: 0x%x", ret);
     TEE_FreeOperation(aes_operation);
     return ret;
   }
-  EMSG("!!!!!!!!!!! DEBUG: Done set operation key with IV size %d", *out_data_len);
   TEE_CipherInit(aes_operation, IV, IV_len);
-  EMSG("!!!!!!!!!!! DEBUG: Done cipher init with in data len %d", in_data_len);
   ret = TEE_CipherDoFinal(aes_operation, in_data, in_data_len, out_data, out_data_len);
   if (ret != TEE_SUCCESS) {
     EMSG("TEE_CipherDoFinal failed: 0x%x", ret);
   }
-  EMSG("!!!!!!!!!!! DEBUG: Done cipher final with length of %d", *out_data_len);
 
   TEE_FreeOperation(aes_operation);
   return ret;
@@ -155,7 +141,6 @@ static TEE_Result digest_operation(uint32_t algorithm, void *in_data,
                                    uint32_t *out_data_len) {
   TEE_OperationHandle dig_operation = NULL;
   TEE_Result ret = TEE_SUCCESS;
-  EMSG("!!!!!!!!!!! ENTERED DIGEST OPERATION");
   ret = TEE_AllocateOperation(&dig_operation, algorithm, TEE_MODE_DIGEST, 0);
   if (ret != TEE_SUCCESS) {
     DMSG("TEE_AllocateOperation failed: 0x%x", ret);
@@ -163,15 +148,11 @@ static TEE_Result digest_operation(uint32_t algorithm, void *in_data,
     return ret;
   }
 
-  EMSG("!!!!!!!!!!! FINISHED ALLOCATE OPERATION WITH ALGORITHM %d", algorithm);
-
   ret = TEE_DigestDoFinal(dig_operation, in_data, in_data_len, out_data,
                           out_data_len);
   if (ret != TEE_SUCCESS) {
     DMSG("TEE_AllocateOperation failed: 0x%x", ret);
   }
-
-  EMSG("!!!!!!!! FINISHED DIGEST DO FINAL WITH OUTPUT %s AND SIZE %d", out_data, *out_data_len);
 
   TEE_FreeOperation(dig_operation);
   return ret;
@@ -183,7 +164,6 @@ static TEE_Result digest_operation(uint32_t algorithm, void *in_data,
  * \param id 		 The id of the stored object
  */
 static TEE_Result store_key(TEE_ObjectHandle key, uint32_t id) {
-  EMSG("Keygen store key entered");
   TEE_ObjectHandle temp = NULL;
   TEE_Result ret = TEE_SUCCESS;
 
@@ -193,15 +173,11 @@ static TEE_Result store_key(TEE_ObjectHandle key, uint32_t id) {
     return ret;
   }
 
-  EMSG("Stored key");
-
   TEE_CloseObject(temp);
   return ret;
 }
 
 static TEE_Result cmd_gen_key(uint32_t param_types, TEE_Param params[4] ) {
-
-  EMSG("DEBUG keygen entered");
 	TEE_Result res;
 	TEE_ObjectHandle key;
 	uint32_t key_type = params[0].value.a;
@@ -215,8 +191,6 @@ static TEE_Result cmd_gen_key(uint32_t param_types, TEE_Param params[4] ) {
 		return res;
 	}
 
-  EMSG("DEBUG keygen allocate object done");
-
 	res = TEE_GenerateKey(key, key_size, NULL, 0);
 	if (res) {
 		EMSG("TEE_GenerateKey(%" PRId32 "): %#" PRIx32, key_size, res);
@@ -224,11 +198,7 @@ static TEE_Result cmd_gen_key(uint32_t param_types, TEE_Param params[4] ) {
 		return res;
 	}
 
-  EMSG("DEBUG keygen done");
-
   res = store_key(key, key_id);
-  EMSG("After keygen store key");
-
   if (res != TEE_SUCCESS) {
     DMSG("Key storage operation failed");
   }
@@ -250,7 +220,6 @@ static TEE_Result get_key(uint32_t id, TEE_ObjectHandle *key) {
 }
 
 TEE_Result cmd_do_crypto(uint32_t param_types, TEE_Param params[4]) {
-  EMSG("Entered do crypto");
   struct cryptography crypto = {0, 0, NULL};
   uint32_t state = params[0].value.b;
 
@@ -308,9 +277,7 @@ TEE_Result cmd_do_crypto(uint32_t param_types, TEE_Param params[4]) {
   {
     TEE_ObjectHandle key;
     TEE_Result res = get_key(params[0].value.a, &key);
-    EMSG("Done get key");
     crypto.IV = params[2].memref.buffer;
-    EMSG("AES Mode: %x Algorithm: %x", crypto.mode, crypto.algo);
     res = AES_Operation(crypto.mode, crypto.algo, key,
                         crypto.IV, strlen(crypto.IV),
                         params[1].memref.buffer, params[1].memref.size,
@@ -322,8 +289,6 @@ TEE_Result cmd_do_crypto(uint32_t param_types, TEE_Param params[4]) {
   {
     TEE_ObjectHandle key;
     TEE_Result res = get_key(params[0].value.a, &key);
-    EMSG("Done get key");
-    EMSG("RSA Mode: %x Algorithm: %x", crypto.mode, crypto.algo);
     res = RSA_Operation(crypto.mode, crypto.algo, key,
                         params[1].memref.buffer, params[1].memref.size,
                         params[2].memref.buffer, &params[2].memref.size);
@@ -336,9 +301,6 @@ TEE_Result cmd_do_crypto(uint32_t param_types, TEE_Param params[4]) {
                   params[1].memref.buffer, params[1].memref.size,
                   params[2].memref.buffer, &params[2].memref.size);
   }
-
-
-
 }
 
 /*******************************************************************************
@@ -363,11 +325,8 @@ TEE_Result TA_InvokeCommandEntryPoint(void __unused *sess_ctx, uint32_t cmd_id,
                                       uint32_t param_types, TEE_Param params[4]) 
 {
 	if(cmd_id == GENERATE_KEY) {
-    EMSG("DEBUG keygen");
     return cmd_gen_key(param_types, params);
   } else if (cmd_id == ENC_DEC) {
-    EMSG("DEBUG crypto");
-    
     return cmd_do_crypto(param_types, params);
   } else {
     return TEE_ERROR_BAD_PARAMETERS;

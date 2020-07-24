@@ -241,9 +241,9 @@ int main(int argc, char *argv[])
     {
       flags |= VERIFY;
     }
-    else if(strcmp(argv[i], "--digest") == 0)
+    else if (strcmp(argv[i], "--digest") == 0)
     {
-      flags|= DIGEST;
+      flags |= DIGEST;
     }
     else if (strcmp(argv[i], "--mode") == 0)
     {
@@ -253,7 +253,6 @@ int main(int argc, char *argv[])
     {
       if (in_file == NULL)
       {
-        printf("DEBUG: Entered --in\n");
         input = argv[i + 1];
       }
       else
@@ -266,7 +265,6 @@ int main(int argc, char *argv[])
       if (input == NULL)
       {
         in_file = fopen(argv[i + 1], "rb");
-        printf("DEBUG: Entered --in_file\n");
       }
       else
       {
@@ -275,7 +273,7 @@ int main(int argc, char *argv[])
     }
     else if (strcmp(argv[i], "--out_file") == 0)
     {
-      out_file = fopen(argv[i + 1], "wb");
+      out_file = fopen(argv[i + 1], "a+b");
     }
     else if (strcmp(argv[i], "--help") == 0)
     {
@@ -283,7 +281,9 @@ int main(int argc, char *argv[])
     }
   }
 
+  printf("### Preparing TEE Session...\n");
   prepare_tee_session(&ctx);
+
   if (mode == CRYPTO)
   {
     uint8_t in[4096];
@@ -293,18 +293,21 @@ int main(int argc, char *argv[])
 
     out_len = 4096;
 
-    if ( (IV != NULL) && (key_type == TEE_TYPE_AES) )
+    if ((IV != NULL) && (key_type == TEE_TYPE_AES))
     {
+      printf("### Setting IV...\n");
       memcpy(out, IV, 17);
     }
 
     if (input != NULL)
     {
+      printf("### Parsing input...\n");
       memcpy(in, input, (strlen(input) + 1));
       in_len = strlen(input);
     }
     else if (in_file != NULL)
     {
+      printf("### Parsing input file...\n");
       fseek(in_file, 0L, SEEK_END);
       size_t file_size = ftell(in_file);
       in_len = file_size;
@@ -313,15 +316,43 @@ int main(int argc, char *argv[])
       fclose(in_file);
     }
 
+    if ((flags & VERIFY) > 0)
+    {
+      if (out_file != NULL)
+      {
+        printf("### Parsing signature...\n");
+        fseek(out_file, 0L, SEEK_END);
+        size_t file_size = ftell(out_file);
+        out_len = file_size;
+        fseek(out_file, 0L, SEEK_SET);
+        fread(out, file_size, 1, out_file);
+        fclose(out_file);
+      }
+      else
+      {
+        printf("please specify a signature file\n");
+      }
+    }
+
+    printf("### Starting crypto session...\n");
     do_crypto(&ctx, key_id, flags, in, in_len, out, &out_len);
 
-    fwrite(out, out_len, 1, out_file);
+    if ((flags & VERIFY) == 0)
+    {
+      printf("### Writting results to file...\n");
+      fwrite(out, out_len, 1, out_file);
+    }
+    printf("### Terminating TEE Session...\n");
     terminate_tee_session(&ctx);
+    printf("### Success!\n");
   }
   else if (mode == KEYGEN)
   {
+    printf("### Starting key generation session...\n");
     do_keygen(&ctx, key_type, key_size, key_id);
+    printf("### Terminating TEE Session...\n");
     terminate_tee_session(&ctx);
+    printf("### Success!\n");
   }
 
   return 0;
